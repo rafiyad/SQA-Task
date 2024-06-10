@@ -3,7 +3,7 @@ import java.util.Map;
 import java.util.TreeMap;
 
 public class WordConunter {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args){
         String str = null;
         try {
             BufferedReader reader = new BufferedReader(new FileReader("input.txt"));
