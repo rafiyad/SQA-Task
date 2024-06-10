@@ -7,6 +7,7 @@ public class WordConunter {
         String str = null;
         try {
             BufferedReader reader = new BufferedReader(new FileReader("input.txt"));
+            // put input.txt file in the project file or give absolute path location of the file.
             str = reader.readLine();
             reader.close();
         } catch (IOException e) {
